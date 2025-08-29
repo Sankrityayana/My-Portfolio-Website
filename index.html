@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddharth Sharma | Full-Stack Developer</title>
+    <meta name="description" content="A modern and professional personal portfolio website of Siddharth Sharma, a Full-Stack Developer based in Bangalore.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="preloader" class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <header id="header" class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">S.S.</a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link active">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero section">
+            <div class="hero-content container">
+                <h1 class="hero-name">Hi, I'm <span class="highlight">Siddharth Sharma</span></h1>
+                <p class="hero-tagline"><span id="typed-text"></span></p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/yourprofile" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/yourprofile" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/yourprofile" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <a href="#about" class="scroll-down" aria-label="Scroll down to About section">
+                <div class="scroll-indicator"></div>
+            </a>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="container about-container">
+                <div class="about-photo-wrapper" data-aos="fade-right">
+                    <img src="assets/images/profile.jpg" alt="Siddharth Sharma Profile Photo" class="profile-photo">
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="bio-text">
+                        Hello! I'm Siddharth, a passionate **Full-Stack Developer** with over 5 years of experience building responsive, scalable, and user-friendly web applications. Based in Bangalore, I specialize in the MERN stack, crafting beautiful front-end experiences and robust back-end systems. My goal is to create digital solutions that are not just functional, but also visually stunning and intuitive. Let's build something amazing together!
+                    </p>
+                    <a href="assets/Siddharth_Sharma_Resume.pdf" download class="btn btn-outline">Download Resume</a>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <i class="fas fa-medal"></i>
+                            <span class="stat-counter" data-target="5">0</span>+
+                            <p>Years of Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span class="stat-counter" data-target="35">0</span>+
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-users"></i>
+                            <span class="stat-counter" data-target="15">0</span>+
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card" data-aos="fade-up">
+                        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                        <h3 class="skill-title">HTML5</h3>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" style="--progress-width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                        <h3 class="skill-title">CSS3 (Flexbox)</h3>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" style="--progress-width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+                        <h3 class="skill-title">JavaScript</h3>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" style="--progress-width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="skill-icon"><i class="fab fa-react"></i></div>
+                        <h3 class="skill-title">React.js</h3>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" style="--progress-width: 88%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                        <h3 class="skill-title">Node.js</h3>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" style="--progress-width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h3 class="skill-title">MongoDB</h3>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" style="--progress-width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="600">
+                        <div class="skill-icon"><i class="fas fa-server"></i></div>
+                        <h3 class="skill-title">Express.js</h3>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" style="--progress-width: 78%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="700">
+                        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                        <h3 class="skill-title">Git & GitHub</h3>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" style="--progress-width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="800">
+                        <div class="skill-icon"><i class="fab fa-aws"></i></div>
+                        <h3 class="skill-title">AWS</h3>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" style="--progress-width: 65%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="900">
+                        <div class="skill-icon"><i class="fas fa-cogs"></i></div>
+                        <h3 class="skill-title">Problem Solving</h3>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" style="--progress-width: 92%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="1000">
+                        <div class="skill-icon"><i class="fas fa-users"></i></div>
+                        <h3 class="skill-title">Team Collaboration</h3>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" style="--progress-width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="1100">
+                        <div class="skill-icon"><i class="fas fa-comments"></i></div>
+                        <h3 class="skill-title">Communication</h3>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" style="--progress-width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section-title">My Work</h2>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web-dev">Web Dev</button>
+                    <button class="filter-btn" data-filter="ui-ux">UI/UX</button>
+                    <button class="filter-btn" data-filter="backend">Backend</button>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card" data-category="web-dev" data-aos="zoom-in">
+                        <img src="assets/images/project1.jpg" alt="E-commerce Platform" loading="lazy">
+                        <div class="project-info">
+                            <h3 class="project-title">E-commerce Platform</h3>
+                            <p class="project-description">A full-stack e-commerce site with user authentication, a shopping cart, and a secure payment gateway.</p>
+                            <div class="project-tech"><span>React</span> <span>Node.js</span> <span>MongoDB</span> <span>Stripe</span></div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Live Demo</a>
+                                <a href="#" class="btn btn-small">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="web-dev" data-aos="zoom-in">
+                        <img src="assets/images/project2.jpg" alt="Recipe Sharing App" loading="lazy">
+                        <div class="project-info">
+                            <h3 class="project-title">Recipe Sharing App</h3>
+                            <p class="project-description">A platform where users can post, share, and discover new recipes, with filtering by cuisine and ingredients.</p>
+                            <div class="project-tech"><span>React</span> <span>Express</span> <span>PostgreSQL</span> <span>REST API</span></div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Live Demo</a>
+                                <a href="#" class="btn btn-small">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="web-dev" data-aos="zoom-in">
+                        <img src="assets/images/project3.jpg" alt="Personal Finance Tracker" loading="lazy">
+                        <div class="project-info">
+                            <h3 class="project-title">Finance Tracker</h3>
+                            <p class="project-description">An application to track income and expenses, with data visualization and budget management features.</p>
+                            <div class="project-tech"><span>Vue.js</span> <span>Node.js</span> <span>Chart.js</span></div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Live Demo</a>
+                                <a href="#" class="btn btn-small">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="ui-ux" data-aos="zoom-in">
+                        <img src="assets/images/project4.jpg" alt="Weather Dashboard" loading="lazy">
+                        <div class="project-info">
+                            <h3 class="project-title">Weather Dashboard</h3>
+                            <p class="project-description">A sleek, minimalist UI/UX design for a weather application that fetches real-time data from an external API.</p>
+                            <div class="project-tech"><span>Figma</span> <span>HTML</span> <span>CSS</span> <span>JavaScript</span></div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Live Demo</a>
+                                <a href="#" class="btn btn-small">Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="web-dev" data-aos="zoom-in">
+                        <img src="assets/images/project5.jpg" alt="Blog Platform" loading="lazy">
+                        <div class="project-info">
+                            <h3 class="project-title">Blog Platform</h3>
+                            <p class="project-description">A modern blog system with a markdown editor, user comments, and a powerful search function.</p>
+                            <div class="project-tech"><span>Next.js</span> <span>Strapi CMS</span> <span>GraphQL</span></div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Live Demo</a>
+                                <a href="#" class="btn btn-small">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="backend" data-aos="zoom-in">
+                        <img src="assets/images/project6.jpg" alt="Task Management API" loading="lazy">
+                        <div class="project-info">
+                            <h3 class="project-title">Task Management API</h3>
+                            <p class="project-description">A robust RESTful API for a task management application, handling user authentication and CRUD operations.</p>
+                            <div class="project-tech"><span>Node.js</span> <span>Express</span> <span>MongoDB</span> <span>JWT</span></div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Documentation</a>
+                                <a href="#" class="btn btn-small">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="ui-ux" data-aos="zoom-in">
+                        <img src="assets/images/project7.jpg" alt="Landing Page UI" loading="lazy">
+                        <div class="project-info">
+                            <h3 class="project-title">SaaS Landing Page</h3>
+                            <p class="project-description">A responsive and animated landing page concept for a fictional SaaS product, focusing on conversions.</p>
+                            <div class="project-tech"><span>Figma</span> <span>Illustrator</span> <span>HTML</span> <span>CSS</span></div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Live Demo</a>
+                                <a href="#" class="btn btn-small">Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="web-dev" data-aos="zoom-in">
+                        <img src="assets/images/project8.jpg" alt="Real-Time Chat App" loading="lazy">
+                        <div class="project-info">
+                            <h3 class="project-title">Real-Time Chat App</h3>
+                            <p class="project-description">A simple chat application with real-time messaging, built using web sockets for instant communication.</p>
+                            <div class="project-tech"><span>React</span> <span>Socket.IO</span> <span>Node.js</span></div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Live Demo</a>
+                                <a href="#" class="btn btn-small">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="backend" data-aos="zoom-in">
+                        <img src="assets/images/project9.jpg" alt="Movie Recommendation System" loading="lazy">
+                        <div class="project-info">
+                            <h3 class="project-title">Movie Recommender</h3>
+                            <p class="project-description">A back-end service that recommends movies to users based on their viewing history and preferences.</p>
+                            <div class="project-tech"><span>Python</span> <span>Flask</span> <span>Pandas</span> <span>Sci-kit Learn</span></div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Documentation</a>
+                                <a href="#" class="btn btn-small">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="services" class="services section">
+            <div class="container">
+                <h2 class="section-title">What I Offer</h2>
+                <div class="services-grid">
+                    <div class="service-card" data-aos="zoom-in">
+                        <div class="service-icon"><i class="fas fa-code"></i></div>
+                        <h3>Web Development</h3>
+                        <p>Building custom, responsive, and high-performance websites from the ground up.</p>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="service-icon"><i class="fas fa-palette"></i></div>
+                        <h3>UI/UX Design</h3>
+                        <p>Crafting intuitive and aesthetically pleasing user interfaces for a seamless experience.</p>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="service-icon"><i class="fas fa-bullhorn"></i></div>
+                        <h3>Technical Consulting</h3>
+                        <p>Providing expert advice on technology stacks, project architecture, and best practices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials section">
+            <div class="container">
+                <h2 class="section-title">What My Clients Say</h2>
+                <div class="testimonial-carousel">
+                    <div class="testimonial-card" data-aos="fade-up">
+                        <img src="assets/images/client1.jpg" alt="Ananya Rao, CEO" class="client-photo">
+                        <p class="feedback">"Siddharth delivered a top-notch website ahead of schedule. His communication and attention to detail were exceptional. A true professional!"</p>
+                        <h4 class="client-name">Ananya Rao</h4>
+                        <p class="client-title">CEO, Tech Innovate</p>
+                    </div>
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                        <img src="assets/images/client2.jpg" alt="Rahul Singh, Founder" class="client-photo">
+                        <p class="feedback">"I was thoroughly impressed with the design and functionality of the app. Siddharth is a wizard with React and a pleasure to work with."</p>
+                        <h4 class="client-name">Rahul Singh</h4>
+                        <p class="client-title">Founder, Grow Digital</p>
+                    </div>
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="assets/images/client3.jpg" alt="Priya Desai, Marketing Director" class="client-photo">
+                        <p class="feedback">"From concept to launch, Siddharth's expertise was invaluable. The final product exceeded all my expectations. Highly recommend!"</p>
+                        <h4 class="client-name">Priya Desai</h4>
+                        <p class="client-title">Marketing Director, Global Solutions</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="container contact-container" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-flex">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div class="contact-info">
+                        <h3>Connect with Me</h3>
+                        <p>Feel free to reach out to me for collaborations, project inquiries, or just a chat!</p>
+                        <div class="contact-details">
+                            <p><i class="fas fa-map-marker-alt"></i> Bangalore, India</p>
+                            <p><i class="fas fa-envelope"></i> contact@siddharthsharma.dev</p>
+                            <p><i class="fas fa-phone"></i> +91-987-654-3210</p>
+                        </div>
+                        <div class="social-icons">
+                            <a href="https://linkedin.com/in/yourprofile" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/yourprofile" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://twitter.com/yourprofile" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="container footer-flex">
+            <p class="copyright">© <span id="current-year"></span> Siddharth Sharma. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
