@@ -1,0 +1,17 @@
+{
+    "editor.formatOnSave": true,
+    // Using built-in formatter fallbacks; remove invalid extension id if not installed
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "always",
+        "source.organizeImports": "always"
+    },
+    "prettier.documentSelectors": [
+        "**/*.js",
+        "**/*.css",
+        "**/*.html",
+        "**/*.json"
+    ],
+    "prettier.printWidth": 100
+}
