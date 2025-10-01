@@ -425,44 +425,44 @@
 }
 
 /* Force all reveal elements visible on certifications page (user request) */
-body.certifications-page [data-reveal] {
+body.certification-page [data-reveal] {
   opacity: 1 !important;
   transform: none !important;
 }
 
-body.certifications-page .projects-grid.certs-grid .project-card {
+body.certification-page .projects-grid.certs-grid .project-card {
   opacity: 1 !important;
   transform: none !important;
 }
 
 /* Tighten spacing on certifications page */
-body.certifications-page .cert-filters {
+body.certification-page .cert-filters {
   margin-bottom: .25rem;
 }
 
-body.certifications-page .cert-filters .filters {
+body.certification-page .cert-filters .filters {
   margin-bottom: .35rem;
 }
 
-body.certifications-page .cert-filters p {
+body.certification-page .cert-filters p {
   margin-top: .35rem !important;
 }
 
-body.certifications-page .cert-list {
+body.certification-page .cert-list {
   padding-top: 0;
   margin-top: 0;
 }
 
-body.certifications-page main>.cert-list {
+body.certification-page main>.cert-list {
   padding-block-start: 0;
 }
 
 /* Further tighten spacing just before the grid */
-body.certifications-page #certGrid.projects-grid {
+body.certification-page #certGrid.projects-grid {
   margin-top: .2rem !important;
 }
 
-body.certifications-page #certGrid.projects-grid.certs-grid {
+body.certification-page #certGrid.projects-grid.certs-grid {
   gap: 1.3rem;
 }
 
@@ -646,7 +646,7 @@ body.certifications-page #certGrid.projects-grid.certs-grid {
   }
 
   .avatar {
-    width: 260px;
+    width: 320px;
   }
 }
 
@@ -1780,7 +1780,7 @@ a:focus-visible,
   }
 
   .hero {
-    padding: 3rem 0 2rem;
+    padding: 3rem 1.5rem 2rem;
   }
 }
 
@@ -2154,7 +2154,7 @@ body {
 
   /* Centered dropdown: width constrained for better readability */
   .nav-menu {
-    width: min(92vw, 380px);
+    width: min(40vw, 380px);
     left: 50%;
     right: auto;
     border-radius: var(--radius-lg);
@@ -2193,7 +2193,7 @@ body {
   }
 
   .avatar {
-    width: 220px;
+    width: 290px;
     margin-inline: auto;
   }
 }

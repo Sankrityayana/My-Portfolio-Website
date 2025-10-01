@@ -7,7 +7,7 @@ A fast, lightweight, offline-friendly multi‑page portfolio built with only **H
 - Light/Dark mode with persistent preference (localStorage)
 - Scroll reveal animations, staged reveal & motion-safe fallbacks
 - Projects filter + modal details + featured showcase
-- Certifications page with client-side category filtering
+- Certification page with client-side category filtering
 - Contact form with validation + `mailto:` fallback
 - Lazy-loaded images, optimized structure, no external runtime deps
 
@@ -16,7 +16,7 @@ A fast, lightweight, offline-friendly multi‑page portfolio built with only **H
 index.html
 about.html
 projects.html
-certifications.html
+certification.html
 contact.html
 css/styles.css
 css/utils.css
@@ -37,7 +37,7 @@ Edit the following sections (search these markers in the code):
 - BIO: `<!-- BIO CONTENT -->` in `index.html` and `about.html`
 - SKILLS: `// EDIT SKILLS` in `main.js` & `<section id="skills">` in `about.html`
 - PROJECTS DATA: `// PROJECTS DATA` in `projects.js`
-- CERTIFICATIONS: Edit dataset inside `certifications.html` (search `CERTIFICATIONS =`)
+- CERTIFICATION: Edit dataset inside `certification.html` (search `CERTIFICATIONS =`)
 - TIMELINE: `<!-- TIMELINE ITEMS -->` in `about.html`
 
 ## Running Locally
